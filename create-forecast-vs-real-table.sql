@@ -1,3 +1,10 @@
+# Create a table to explore the comparison between:
+# 1. the forecasted values using our created model
+# 2. the values coming from the NOAA curated table, subset of NOAA's public dataset
+# This query will create a table with 4 columns: city, day, forecasted_avg_temp, and real_avg_temp
+# The idea is, once the table is created, click "Export > Explore with Looker Studio" to create a dashboard comparing the real values with the forecasted ones (for May-Sep 2022 approx)
+
+
 # Add your project.ds.table path below (for the new table that will contain forecast results and real values from the NOAA dataset)
 CREATE TABLE `project.dataset.table` AS  
 
