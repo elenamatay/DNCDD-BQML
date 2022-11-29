@@ -11,3 +11,10 @@ This demo included:
 
 
 The code included in this repo covers the first two points + comparing the model results (average temperature forecast) with the real values (coming from the [NOAA GFS public dataset](http://console.cloud.google.com/marketplace/product/noaa-public/gfs))  in order to visualise them in LookerStudio later
+
+Logical order of the files:
+1. curated-table-create.sql
+2. model-create.sql
+3. model-evaluate.sql
+4. model-predict.sql
+5. create-forecast-vs-real-table.sql
