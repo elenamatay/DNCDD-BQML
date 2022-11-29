@@ -1,3 +1,6 @@
+# Model evaluation. 
+# This same results can be achieved from the UI clicking on the model (table) > Evaluation
+
 SELECT
  *
 FROM
