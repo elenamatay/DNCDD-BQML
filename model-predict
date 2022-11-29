@@ -1,8 +1,0 @@
-SELECT 
-  *
-
-FROM
-  ML.FORECAST(
-    MODEL `project.dataset.model`,  # Add your project.ds.table path here for the trained model (treated as a table in BQ)
-    STRUCT(150 AS HORIZON)
-  )
