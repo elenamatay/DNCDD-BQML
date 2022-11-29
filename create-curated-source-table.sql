@@ -1,4 +1,4 @@
-# Create a curated -subset- table from the original NOAA GFS public dataset
+# Create a curated -subset- table from the original NOAA GFS public dataset, in order to better visualise data for training
 # This curated table will just include 3 geopoints or cities, and their avgerage temperature each day
 # WARNING: This query should process ~27.13 TB when run
 
