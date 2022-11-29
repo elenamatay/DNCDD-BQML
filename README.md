@@ -10,4 +10,4 @@ This demo included:
 - Scheduling and automate model retraining
 
 
-The code included in this repo covers the first two points + comparing the model results (average temperature forecast) with the real values (coimng from the [NOAA GFS public dataset](http://console.cloud.google.com/marketplace/product/noaa-public/gfs))
+The code included in this repo covers the first two points + comparing the model results (average temperature forecast) with the real values (coming from the [NOAA GFS public dataset](http://console.cloud.google.com/marketplace/product/noaa-public/gfs))  in order to visualise them in LookerStudio later
