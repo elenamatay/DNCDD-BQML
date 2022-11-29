@@ -1,3 +1,7 @@
+# Create a curated -subset- table from the original NOAA GFS public dataset
+# This curated table will just include 3 geopoints or cities, and their avgerage temperature each day until 1st May 2022
+# WARNING: This query should process ~27.13 TB when run
+
 CREATE OR REPLACE TABLE `project.dataset.table` PARTITION BY day CLUSTER BY city  # Add your project.ds.table path here
 AS
   SELECT
