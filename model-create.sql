@@ -1,4 +1,4 @@
-CREATE MODEL `project.dataset.table`
+CREATE MODEL `project.dataset.table` # Add your project.ds.table path here
 
  OPTIONS(MODEL_TYPE='ARIMA_PLUS',
          time_series_timestamp_col='day',
