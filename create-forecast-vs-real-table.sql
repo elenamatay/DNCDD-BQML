@@ -1,5 +1,5 @@
 # Add your project.ds.table path below (for the new table that will contain forecast results and real values from the NOAA dataset)
-CREATE OR REPLACE TABLE `project.dataset.table` AS  
+CREATE TABLE `project.dataset.table` AS  
 
   SELECT 
   model_predictions.city AS city,
