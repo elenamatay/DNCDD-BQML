@@ -1,5 +1,5 @@
-# Cloud Developer Day 2022 Berlin - BQML
-BigQuery ML demo presented at the "Cloud Developer Day" in Berlin, November 2022.
+# BQML - Weather forecasting demo using ARIMA
+BigQuery ML demo created by @elenamatay in November 2022 for demo purposes.
 
 ![image](https://user-images.githubusercontent.com/47299995/204466995-65a2fff9-bd5a-4e5c-8053-d254d7b3db52.png)
 
